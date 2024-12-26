@@ -1,6 +1,6 @@
 # Calendar AutoAuth MCP Server
 
-A Model Context Protocol (MCP) server for Google Calendar integration in Cursor IDE with auto authentication support. This server enables AI assistants to manage Google Calendar events through natural language interactions.
+A Model Context Protocol (MCP) server for Google Calendar integration in Cluade Desktop with auto authentication support. This server enables AI assistants to manage Google Calendar events through natural language interactions.
 
 [![npm version](https://badge.fury.io/js/%40gongrzhe%2Fserver-calendar-autoauth-mcp.svg)](https://www.npmjs.com/package/@gongrzhe/server-calendar-autoauth-mcp)
 [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
@@ -67,7 +67,7 @@ A Model Context Protocol (MCP) server for Google Calendar integration in Cursor 
    > - Both Desktop app and Web application credentials are supported
    > - For Web application credentials, make sure to add `http://localhost:3000/oauth2callback` to your authorized redirect URIs
 
-3. Configure in Cursor Desktop:
+3. Configure in Claude Desktop:
 
 ```json
 {
@@ -120,7 +120,7 @@ docker run -i --rm \
 
 ## Usage Examples
 
-The server provides several tools that can be used through the Cursor IDE:
+The server provides several tools that can be used through the Claude Desktop:
 
 ### Create Event
 ```json
